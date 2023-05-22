@@ -1,0 +1,12 @@
+.current-link {
+    border-bottom: 5px solid magenta;
+}
+
+.nav-link {
+    color: black;
+    font-size: larger;
+}
+
+.nav-link:hover {
+    color: magenta;
+}
