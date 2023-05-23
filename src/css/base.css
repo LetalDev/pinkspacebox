@@ -1,0 +1,13 @@
+a {
+    color:blueviolet;
+    text-decoration: none;
+}
+
+a:hover {
+    color: magenta;
+}
+
+body {
+    background-color: #FFE8FB;
+    font-family: 'Montserrat', 'Comfortaa', Arial, Helvetica, sans-serif;
+}
