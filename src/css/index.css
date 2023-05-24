@@ -1,0 +1,73 @@
+#destaques-cursos .card {
+    background-color:#FF8BD1;    
+}
+
+#destaques-cursos button {
+    background-color:#FF8BD1;
+    border: none;
+    padding: 0.6rem 1.6rem;
+    border-radius: 30px;
+    font-size: 22px;
+}
+
+#destaques-cursos button:hover {
+    background-color: #ff6fc6;
+}
+
+#destaques-servicos .card {
+    background-color:#FFCFEF;
+}
+
+#destaques-servicos button {
+    background-color:#FFCFEF;
+    border: none;
+    padding: 0.6rem 1.6rem;
+    border-radius: 30px;
+    font-size: 22px
+}
+
+#destaques-servicos button:hover {
+    background-color: #ffbef4;
+}
+
+#destaques-servicos hr {
+    color: #FFCFEF;
+}
+
+#cloud1 {
+    position: absolute;
+    top: 60px
+}
+
+#bigCarousel .carousel-control-prev {
+    position: absolute;
+    top: 80px;
+    left: -40px;
+}
+
+#bigCarousel .carousel-control-next {
+    position: absolute;
+    top: 80px;
+    right: -40px;
+}
+
+#bigCarousel h3 {
+    position: absolute;
+    top:160px;
+    left: 140px;
+}
+
+#bigCarousel .carousel-item button {
+    background-color:#FF8BD1;
+    border: none;
+    padding: 0.6rem 1.6rem;
+    border-radius: 30px;
+    font-size: 22px;
+    position: absolute;
+    top: 220px;
+    left: 130px
+}
+
+#bigCarousel .carousel-item button:hover {
+    background-color: #ff6fc6;
+}

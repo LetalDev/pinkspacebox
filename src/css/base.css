@@ -11,3 +11,18 @@ body {
     background-color: #FFE8FB;
     font-family: 'Montserrat', 'Comfortaa', Arial, Helvetica, sans-serif;
 }
+
+.background-alt {
+    background-color: #FF8BD1;
+}
+
+hr {
+    color:#FF8BD1;
+    opacity:100%;
+    border-width:5px;
+}
+
+.card {
+    border-radius: 22px;
+    box-shadow: 2px 2px 15px;
+}
