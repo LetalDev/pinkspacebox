@@ -36,38 +36,56 @@
 
 #cloud1 {
     position: absolute;
-    top: 60px
+    top: 1vw;
+    height: 25vw;
+    width: 30vw;
 }
 
 #bigCarousel .carousel-control-prev {
     position: absolute;
-    top: 80px;
-    left: -40px;
+    width: 8vw;
+}
+
+#bigCarousel .carousel-control-prev img {
+    width: 3vw;
 }
 
 #bigCarousel .carousel-control-next {
     position: absolute;
-    top: 80px;
-    right: -40px;
+    width: 8vw;
+}
+
+#bigCarousel .carousel-control-next img {
+    width: 3vw;
+    transform: rotate(180deg);
 }
 
 #bigCarousel h3 {
     position: absolute;
-    top:160px;
-    left: 140px;
+    font-size: 3vw;
+    top: 10vw;
+    left: 10vw;
 }
 
 #bigCarousel .carousel-item button {
     background-color:#FF8BD1;
     border: none;
-    padding: 0.6rem 1.6rem;
-    border-radius: 30px;
-    font-size: 22px;
+    padding: 0.8vw 1.6vw;
+    border-radius: 3vw;
+    font-size: 2vw;
     position: absolute;
-    top: 220px;
-    left: 130px
+    top: 15vw;
+    left: 9vw;
 }
 
 #bigCarousel .carousel-item button:hover {
     background-color: #ff6fc6;
+}
+
+#bigCarousel .carousel-item img {
+    height: 30vw;
+}
+
+.card img {
+    height: 150px;
 }
