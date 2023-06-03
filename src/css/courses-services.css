@@ -1,5 +1,5 @@
 .card img {
-  height: 150px
+  width: 100%;
 }
 
 .card:hover {
@@ -46,6 +46,10 @@ h1 {
   max-height: 25vw;
   width: 100%;
   max-width: 25vw;
+  border-width: 5px;
+  border-color: #ff6fc6;
+  border-style: solid;
+  border-radius: 15px;
 }
 
 .big-card .card-text {
