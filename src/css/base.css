@@ -33,3 +33,29 @@ hr {
     background-color:#FF8BD1;
     height: 100%;
 }
+
+.card img {
+    width: 100%;
+}
+
+button.card:hover {
+    background-color: #ff6fc6;
+    transform:scale(1.05);
+    transition: transform 0.5s;
+}
+
+button.card:not(:hover) {
+    transition: 0.5s;
+}
+
+button {
+    border:none;
+    background-color: #FF8BD1;
+    border-radius: 30px;
+    padding: 0.6rem 1.6rem;
+    font-size: 20px;
+}
+
+button:hover {
+    background-color: #ff6fc6;
+}

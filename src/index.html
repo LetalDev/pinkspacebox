@@ -6,12 +6,13 @@
         <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
         <script src="bootstrap/js/bootstrap.min.js"></script>
         <link rel="stylesheet" href="css/base.css">
-        <link rel="stylesheet" href="css/index.css">
         <link rel="stylesheet" href="css/header.css">
         <link rel="stylesheet" href="css/footer.css">
+        <link rel="stylesheet" href="css/index.css">
+        <link rel="stylesheet" href="css/courses-services.css">
     </head>
     <body>
-        <header class="sticky-top border-bottom">
+        <header class="z-2 sticky-top border-bottom">
             <nav class="navbar navbar-expand-md p-0">
                 <div class="container-fluid p-2 justify-content-between">
                     <div class="mx-4">
@@ -80,7 +81,7 @@
                     <img src="image/carousel-prev.png" alt="Próximo">
                 </button>            
             </section>
-            <section class="container my-5 py-3 px-0" id="destaques-cursos">
+            <section class="container my-5 py-3 px-0 popup-cards" id="destaques-cursos">
                 <div class="row justify-content-between text-center">
                     <div class="col-lg-4 col-3 py-3 px-0"><hr></div>
                     <div class="col-4 p-0"><h2>Destaques:<br>Cursos</h2></div>
@@ -88,28 +89,84 @@
                 </div>
                 <div class="row justify-content-around my-5">
                     <div class="col-6 col-lg-3 m-3 m-lg-0">
-                        <div class="card p-3">
-                            <img src="..." class="card-img-top" alt="">
+                        <button class="card p-3 w-100">
+                            <img src="image/cursos/alongamento de cilios fio a fio.jpg" class="card-img-top" alt="">
                             <div class="card-body">
-                                <h5 class="card-title">Nome do curso</h5>
+                                <h5 class="card-title">Alongamento de Cílios Fio a Fio</h5>
+                                <div class="card-text hidden">
+                                    <strong>Conteúdo Programático (parte técnica-prática)</strong>
+                                    <ul>
+                                        <li>Biossegurança específica para extensão de cílios;
+                                        </li><li>Tipos, tamanhos, densidades e curvaturas dos fios artificiais;
+                                        </li><li>Técnica de extensão fio a fio clássica;
+                                        </li><li>Técnica Volume híbrido;
+                                        </li><li>Técnica Volume russo;
+                                        </li><li>Técnica Volume brasileiro;
+                                        </li><li>Técnica de montagens de fans (leque);
+                                        </li><li>Noções de Visagismo e Mapping (mapeamento do olhar e harmonização): gatinho, esquilo, boneca etc.;
+                                        </li><li>Como fazer o isolamento dos fios inferiores;
+                                        </li><li>Isolamento com a pinça;
+                                        </li><li>Remoção química das extensões de cílios;
+                                        </li><li>Remoção mecânica das extensões (manutenção dos cílios alongados);
+                                        </li><li>Manutenção, remoção e acoplagem total (esta em todas as modelos);
+                                        </li><li>Contraindicações para o alongamento de cílios fio a fio;
+                                        </li><li>Possíveis intercorrências e ações de correção na extensão de cílios;  
+                                        </li><li>Cuidados pós-aplicação das extensões.
+                                    </ul>
+                                </div>
                             </div>
-                        </div>
+                        </button>
                     </div>
                     <div class="col-6 col-lg-3">
-                        <div class="card p-3">
-                            <img src="..." class="card-img-top" alt="">
+                        <button class="card p-3 w-100">
+                            <img src="image/cursos/depilacao profissional com cera quente e roll on.jpg" class="card-img-top" alt="">
                             <div class="card-body">
-                                <h5 class="card-title">Nome do curso</h5>
+                                <h5 class="card-title">Depilação Profissional com Cera Quente e Roll-on</h5>
+                                <div class="card-text hidden">
+                                    <strong>Conteúdo Programático (parte técnica-prática)</strong>
+                                    <ul>
+                                    <li>Biossegurança específica para depilação profissional com cera quente;
+                                        </li><li>Preparo do ambiente, equipamentos e produtos para depilação;
+                                        </li><li>Instruções para operação dos equipamentos;
+                                        </li><li>Técnicas de manuseio de ceras (cera egípcia e roll-on);
+                                        </li><li>Depilação completa (inclusive íntima, podendo incluir rosto, buço e nariz);
+                                        </li><li>Técnicas desenvolvidas por nós para acelerar o atendimento e manter clientes;
+                                        </li><li>Descarte correto de materiais;
+                                        </li><li>Contraindicações para depilação com cera quente e roll-on;
+                                        </li><li>Possíveis intercorrências e ações de correção na depilação;  
+                                        </li><li>Cuidados pós-depilação com cera quente.
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
-                        </div>
+                        </button>
                     </div>
                     <div class="col-6 col-lg-3">
-                        <div class="card p-3">
-                            <img src="..." class="card-img-top" alt="">
+                        <button class="card p-3 w-100">
+                            <img src="image/cursos/limpeza de pele facial profunda.jpg" class="card-img-top" alt="">
                             <div class="card-body">
-                                <h5 class="card-title">Nome do curso</h5>
+                                <h5 class="card-title">Limpeza de Pele Facial Profunda</h5>
+                                <div class="card-text hidden">
+                                    <strong>Conteúdo Programático (parte técnica-prática)</strong>
+                                    <ul>
+                                        <li>Biossegurança específica para limpeza de pele facial profunda;
+                                        </li><li>Preparo do ambiente, equipamentos e produtos para limpeza facial profunda;
+                                        </li><li>Instruções para operação dos equipamentos;
+                                        </li><li>Demaquilamento e Higienização;
+                                        </li><li>Esfoliação da face;
+                                        </li><li>Emoliência (uso de vapor de ozônio);
+                                        </li><li>Extração de comedões e miliuns; 
+                                        </li><li>Tonificação e restabelecimento da pele (com uso de alta frequência);
+                                        </li><li>Máscara facial;
+                                        </li><li>Fotoproteção facial;
+                                        </li><li>Contraindicações para a limpeza de pele facial profunda;
+                                        </li><li>Possíveis intercorrências e ações de correção na limpeza de pele profunda;  
+                                        </li><li>Cuidados pós-tratamento da pele facial.
+                                    </li>
+                                    </ul>
+                                </div>
                             </div>
-                        </div>
+                        </button>
                     </div>
                 </div>
                 <div class="container text-center">
@@ -122,7 +179,7 @@
                 </div>
             </section>
             <div class="container-fluid background-alt pb-5">
-                <section class="container mt-5 py-5 px-0" id="destaques-servicos">
+                <section class="container mt-5 py-5 px-0 popup-cards" id="destaques-servicos">
                     <div class="row justify-content-around text-center">
                         <div class="col-lg-4 col-3 py-3 px-0"><hr></div>
                         <div class="col-4 p-0"><h2>Destaques:<br>Serviços</h2></div>
@@ -130,28 +187,84 @@
                     </div>
                     <div class="row justify-content-around my-5">
                         <div class="col-6 col-lg-3 m-3 m-lg-0">
-                            <div class="card p-3">
-                                <img src="..." class="card-img-top" alt="">
+                            <button class="card p-3 w-100">
+                                <img src="image/cursos/alongamento de cilios fio a fio.jpg" class="card-img-top" alt="">
                                 <div class="card-body">
-                                    <h5 class="card-title">Nome do serviço</h5>
+                                    <h5 class="card-title">Alongamento de Cílios Fio a Fio</h5>
+                                    <div class="card-text hidden">
+                                        <strong>Conteúdo Programático (parte técnica-prática)</strong>
+                                        <ul>
+                                            <li>Biossegurança específica para extensão de cílios;
+                                            </li><li>Tipos, tamanhos, densidades e curvaturas dos fios artificiais;
+                                            </li><li>Técnica de extensão fio a fio clássica;
+                                            </li><li>Técnica Volume híbrido;
+                                            </li><li>Técnica Volume russo;
+                                            </li><li>Técnica Volume brasileiro;
+                                            </li><li>Técnica de montagens de fans (leque);
+                                            </li><li>Noções de Visagismo e Mapping (mapeamento do olhar e harmonização): gatinho, esquilo, boneca etc.;
+                                            </li><li>Como fazer o isolamento dos fios inferiores;
+                                            </li><li>Isolamento com a pinça;
+                                            </li><li>Remoção química das extensões de cílios;
+                                            </li><li>Remoção mecânica das extensões (manutenção dos cílios alongados);
+                                            </li><li>Manutenção, remoção e acoplagem total (esta em todas as modelos);
+                                            </li><li>Contraindicações para o alongamento de cílios fio a fio;
+                                            </li><li>Possíveis intercorrências e ações de correção na extensão de cílios;  
+                                            </li><li>Cuidados pós-aplicação das extensões.
+                                        </ul>
+                                    </div>
                                 </div>
-                            </div>
+                            </button>
                         </div>
                         <div class="col-6 col-lg-3">
-                            <div class="card p-3">
-                                <img src="..." class="card-img-top" alt="">
+                            <button class="card p-3 w-100">
+                                <img src="image/cursos/depilacao profissional com cera quente e roll on.jpg" class="card-img-top" alt="">
                                 <div class="card-body">
-                                    <h5 class="card-title">Nome do serviço</h5>
+                                    <h5 class="card-title">Depilação Profissional com Cera Quente e Roll-on</h5>
+                                    <div class="card-text hidden">
+                                        <strong>Conteúdo Programático (parte técnica-prática)</strong>
+                                        <ul>
+                                        <li>Biossegurança específica para depilação profissional com cera quente;
+                                            </li><li>Preparo do ambiente, equipamentos e produtos para depilação;
+                                            </li><li>Instruções para operação dos equipamentos;
+                                            </li><li>Técnicas de manuseio de ceras (cera egípcia e roll-on);
+                                            </li><li>Depilação completa (inclusive íntima, podendo incluir rosto, buço e nariz);
+                                            </li><li>Técnicas desenvolvidas por nós para acelerar o atendimento e manter clientes;
+                                            </li><li>Descarte correto de materiais;
+                                            </li><li>Contraindicações para depilação com cera quente e roll-on;
+                                            </li><li>Possíveis intercorrências e ações de correção na depilação;  
+                                            </li><li>Cuidados pós-depilação com cera quente.
+                                            </li>
+                                        </ul>
+                                    </div>
                                 </div>
-                            </div>
+                            </button>
                         </div>
                         <div class="col-6 col-lg-3">
-                            <div class="card p-3">
-                                <img src="..." class="card-img-top" alt="">
+                            <button class="card p-3 w-100">
+                                <img src="image/cursos/limpeza de pele facial profunda.jpg" class="card-img-top" alt="">
                                 <div class="card-body">
-                                    <h5 class="card-title">Nome do serviço</h5>
+                                    <h5 class="card-title">Limpeza de Pele Facial Profunda</h5>
+                                    <div class="card-text hidden">
+                                        <strong>Conteúdo Programático (parte técnica-prática)</strong>
+                                        <ul>
+                                            <li>Biossegurança específica para limpeza de pele facial profunda;
+                                            </li><li>Preparo do ambiente, equipamentos e produtos para limpeza facial profunda;
+                                            </li><li>Instruções para operação dos equipamentos;
+                                            </li><li>Demaquilamento e Higienização;
+                                            </li><li>Esfoliação da face;
+                                            </li><li>Emoliência (uso de vapor de ozônio);
+                                            </li><li>Extração de comedões e miliuns; 
+                                            </li><li>Tonificação e restabelecimento da pele (com uso de alta frequência);
+                                            </li><li>Máscara facial;
+                                            </li><li>Fotoproteção facial;
+                                            </li><li>Contraindicações para a limpeza de pele facial profunda;
+                                            </li><li>Possíveis intercorrências e ações de correção na limpeza de pele profunda;  
+                                            </li><li>Cuidados pós-tratamento da pele facial.
+                                        </li>
+                                        </ul>
+                                    </div>
                                 </div>
-                            </div>
+                            </button>
                         </div>
                     </div>
                     <div class="container text-center">
@@ -189,5 +302,26 @@
             <br><br>
             <strong>Copyright 2023 Pinkspace Box</strong>
         </footer>
+        <div class="hidden z-3" id="dim"></div>
+        <div class="hidden z-3 row big-card p-3 justify-content-around" id="big-card">
+            <div class="col-md-6 col-12 p-0 m-0 text-center">
+                <img class="card-img" src="">
+                <button class="p-3 d-none d-md-inline mt-4">
+                    Entrar em contato
+                    <img src="image/whatsapp.png" width="36" height="36">
+                </button>
+            </div>
+            <div class="col-md-6 col-12">
+                <h1>nome</h1>
+                <div class="card-text">desc</div>
+            </div>
+            <div class="col-12 d-inline d-md-none mt-4 text-center">
+                <button class="p-3">
+                    Entrar em contato
+                    <img src="image/whatsapp.png" width="36" height="36">
+                </button>
+            </div>
+        </div>
+        <script src="js/card-popup.js"></script>
     </body>
 </html>

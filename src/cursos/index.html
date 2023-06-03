@@ -11,16 +11,6 @@
         <link rel="stylesheet" href="../css/courses-services.css">
 </head>
     <body>
-        <div class="hidden z-3" id="dim"></div>
-        <div class="hidden z-3 row big-card p-3 justify-content-around" id="big-card">
-            <div class="col-md-6 col-12 p-0 m-0 text-center">
-                <img src="">
-            </div>
-            <div class="col-md-6 col-12">
-                <h1>nome</h1>
-                <div class="card-text">desc</div>
-            </div>
-        </div>
         <header class="z-2 sticky-top border-bottom">
             <nav class="navbar navbar-expand-md p-0">
                 <div class="container-fluid p-2 justify-content-between">
@@ -68,11 +58,11 @@
                     </ul>
                 </div>
             </section>
-            <section class="container my-5 py-3 px-0" id="popup-cards">
+            <section class="container my-5 py-3 px-0 popup-cards">
                 <div class="row justify-content-between text-center">
-                    <div class="col-lg-4 col-3 py-3 px-0"><hr></div>
+                    <div class="col-lg-4 col-3 px-0"><hr></div>
                     <div class="col-4 p-0"><h1>Cursos Oferecidos</h1></div>
-                    <div class="col-lg-4 col-3 py-3 px-0"><hr></div>
+                    <div class="col-lg-4 col-3 px-0"><hr></div>
                 </div>
                 <br>
                 <div class="row justify-content-center">
@@ -337,6 +327,26 @@
             <br><br>
             <strong>Copyright 2023 Pinkspace Box</strong>
         </footer>
+        <div class="hidden z-3" id="dim"></div>
+        <div class="hidden z-3 row big-card p-3 justify-content-around" id="big-card">
+            <div class="col-md-6 col-12 p-0 m-0 text-center">
+                <img class="card-img" src="">
+                <button class="p-3 d-none d-md-inline mt-4">
+                    Entrar em contato
+                    <img src="../image/whatsapp.png" width="36" height="36">
+                </button>
+            </div>
+            <div class="col-md-6 col-12">
+                <h1>nome</h1>
+                <div class="card-text">desc</div>
+            </div>
+            <div class="col-12 d-inline d-md-none mt-4 text-center">
+                <button class="p-3">
+                    Entrar em contato
+                    <img src="../image/whatsapp.png" width="36" height="36">
+                </button>
+            </div>
+        </div>
         <script src="../js/card-popup.js"></script>
     </body>
 </html>

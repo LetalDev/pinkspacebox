@@ -1,4 +1,4 @@
-var cards = document.querySelectorAll('#popup-cards button');
+var cards = document.querySelectorAll('.popup-cards button');
 var dim = document.querySelector('#dim');
 var big_card = document.querySelector("#big-card");
 

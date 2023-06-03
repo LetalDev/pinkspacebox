@@ -2,28 +2,12 @@
     background-color:#FF8BD1;    
 }
 
-#destaques-cursos button {
-    background-color:#FF8BD1;
-    border: none;
-    padding: 0.6rem 1.6rem;
-    border-radius: 30px;
-    font-size: 22px;
-}
-
-#destaques-cursos button:hover {
-    background-color: #ff6fc6;
-}
-
 #destaques-servicos .card {
     background-color:#FFCFEF;
 }
 
 #destaques-servicos button {
     background-color:#FFCFEF;
-    border: none;
-    padding: 0.6rem 1.6rem;
-    border-radius: 30px;
-    font-size: 22px
 }
 
 #destaques-servicos button:hover {
@@ -84,8 +68,4 @@
 
 #bigCarousel .carousel-item img {
     height: 30vw;
-}
-
-.card img {
-    height: 150px;
 }
