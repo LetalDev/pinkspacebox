@@ -44,6 +44,14 @@
     transform: rotate(180deg);
 }
 
+#bigCarousel .carousel-control-prev:hover {
+    background-color: transparent;
+}
+
+#bigCarousel .carousel-control-next:hover {
+    background-color: transparent;
+}
+
 #bigCarousel h3 {
     position: absolute;
     font-size: 3vw;

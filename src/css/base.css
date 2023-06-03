@@ -59,3 +59,9 @@ button {
 button:hover {
     background-color: #ff6fc6;
 }
+
+.whatsapp-float {
+    position: fixed;
+    right: 20px;
+    bottom: 50px;
+}
