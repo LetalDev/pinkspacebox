@@ -2,10 +2,6 @@
   height: 150px
 }
 
-.card {
-  height: 100%
-}
-
 .card:hover {
   background-color: #ff6fc6;
   transform:scale(1.05);

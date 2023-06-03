@@ -30,5 +30,6 @@ hr {
 .card {
     border-radius: 22px;
     box-shadow: 2px 2px 15px;
-    background-color:#FF8BD1; 
+    background-color:#FF8BD1;
+    height: 100%;
 }
