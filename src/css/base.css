@@ -5,6 +5,11 @@ a {
 
 a:hover {
     color: magenta;
+    transition: 0.3s;
+}
+
+a:not(:hover) {
+    transition: 0.3s;
 }
 
 body {
@@ -25,4 +30,5 @@ hr {
 .card {
     border-radius: 22px;
     box-shadow: 2px 2px 15px;
+    background-color:#FF8BD1; 
 }
