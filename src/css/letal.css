@@ -1,0 +1,57 @@
+body {
+    background-color: rgb(3, 3, 3);
+}
+
+.container {
+    text-align: center;
+
+}
+
+.introText {
+    color: rgb(240, 240, 240);
+
+}
+
+.introText h1 {
+    font-size: 7.5vw;
+    margin-bottom: 1.0vw;
+    background-color:rgb(70, 69, 69);
+}
+
+.introText h2 {
+    font-size: 4.5vw;
+}
+
+.cards {
+    background-color: rgb(10, 10, 10);
+}
+
+.cards h3 {
+    color:  rgb(240, 240, 240);;
+    font-size: 3vw;
+    text-decoration: underline;
+    margin-bottom: 2.5vw;
+}
+
+.card {
+    position: relative;
+    background-color: rgb(213, 204, 204);
+    display: inline-block;
+    width: 25vw;
+    margin: 2vw 1vw;
+}
+
+.card img {
+    width: 20vw;
+    height: 30vw;
+}
+
+.card:hover {
+    transition: 0.25s;
+    background-color: rgb(170, 170, 170);
+}
+
+.logoLinkedIn img {
+    width: 1.5vw;
+    height: 1.5vw;
+}
