@@ -5,3 +5,7 @@
 .accordion button {
     font-size: 23px;
 }
+
+.accordion button:hover{
+    background-color: #f8c3e3;
+}
