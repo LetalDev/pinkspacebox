@@ -6,7 +6,6 @@ cards.forEach(card => {
     card.onclick = () => {
         let title = card.children[1].children[0].firstChild.nodeValue;
         let desc = card.children[1].children[1].cloneNode(true);
-        console.log(desc);
         let img_src = card.children[0].getAttribute("src");
         dim.classList.remove("hidden");
         big_card.classList.remove("hidden");
