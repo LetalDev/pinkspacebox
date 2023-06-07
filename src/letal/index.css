@@ -120,3 +120,7 @@ a {
     border-radius: 120px;
     background-color: rgb(20,20,20,1);
 }
+
+.desc-padding {
+    padding-left: 2rem;
+}
