@@ -56,25 +56,25 @@
     position: absolute;
     font-size: 3vw;
     top: 10vw;
-    left: 10vw;
+    left: 7.5vw;
 }
 
-#bigCarousel .carousel-item button {
+#bigCarousel .carousel-inner button {
     background-color:#FF8BD1;
     border: none;
     padding: 0.8vw 1.6vw;
     border-radius: 3vw;
-    font-size: 2vw;
+    font-size: 1.5vw;
     position: absolute;
-    top: 15vw;
+    top: 14vw;
     left: 9vw;
 }
 
-#bigCarousel .carousel-item button:hover {
+#bigCarousel .carousel-inner button:hover {
     background-color: #ff6fc6;
 }
 
-#bigCarousel .carousel-item img {
+#bigCarousel .carousel-inner img {
     height: 30vw;
 }
 
