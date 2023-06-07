@@ -74,12 +74,8 @@
     background-color: #ff6fc6;
 }
 
-#bigCarousel .carousel-inner img {
+#bigCarousel .carousel-item img {
     height: 30vw;
-}
-
-footer{
-    background-color: #ad3eb1;
 }
 
 .d-block{
