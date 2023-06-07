@@ -77,3 +77,16 @@
 #bigCarousel .carousel-item img {
     height: 30vw;
 }
+
+footer{
+    background-color: #ad3eb1;
+}
+
+.d-block{
+    width: 100vw;
+    z-index: 1;
+}
+
+
+
+
