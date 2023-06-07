@@ -1,18 +1,18 @@
 body {
     background-color: #f5eef5;
+    font-family: 'Montserrat', 'Comfortaa', Arial, Helvetica, sans-serif;
 }
   
-.container {
-    width: 80%;
-    margin-top: 50px;
-    text-align: center;
-    padding: 20px;
-    display: flex;
-    justify-content: space-between;
+.subtitle {
+    background-color: #FF8BD1;
+    padding: 3vw;
+    font-size: 1.8rem;
 }
-  
-.half {
-    width: 45%;
-    text-align: justify;
+
+h2{
+    font-family: var(--font-titulo);
 }
-  
+
+p{
+    font-family: var(--font-texto);
+}
