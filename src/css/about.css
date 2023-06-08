@@ -16,3 +16,7 @@ h2{
 p{
     font-family: var(--font-texto);
 }
+
+.form{
+    text-align: center;
+}
