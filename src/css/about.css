@@ -16,3 +16,12 @@ h2{
 p{
     font-family: var(--font-texto);
 }
+
+#game {
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 30px;
+    width: 50vw;
+    height: 50vw;
+    max-width: 80%;
+}
