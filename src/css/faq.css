@@ -1,11 +1,15 @@
 .accordion {
-    font-size: 20px;
+    font-size: 1.5rem;
 }
 
 .accordion button {
-    font-size: 23px;
+    font-size: 2rem;
 }
 
 .accordion button:hover{
     background-color: #f8c3e3;
+}
+
+.whatsapp-float {
+    bottom: 20vh;
 }

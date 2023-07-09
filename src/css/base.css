@@ -15,6 +15,7 @@ a:not(:hover) {
 body {
     background-color: #FFE8FB;
     font-family: 'Montserrat', 'Comfortaa', Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
 }
 
 .background-alt {
@@ -53,7 +54,7 @@ button {
     background-color: #FF8BD1;
     border-radius: 30px;
     padding: 0.6rem 1.6rem;
-    font-size: 20px;
+    font-size: 2.5rem;
 }
 
 button:hover {
@@ -62,7 +63,32 @@ button:hover {
 
 .whatsapp-float {
     position: fixed;
-    right: 20px;
-    bottom: 50px;
+    right: 5vh;
+    bottom: 5vh;
+}
+
+.whatsapp-float img {
+    width: 10vh;
+    height: 10vh;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+h3 {
+    font-size: 2.3rem
+}
+
+h4 {
+    font-size: 2.1rem;
+}
+
+h5 {
+    font-size: 2rem;
 }
 

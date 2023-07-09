@@ -3,7 +3,7 @@
 }
 .nav-link {
     color: black;
-    font-size: larger;
+    font-size: 2.5vh;
 }
 
 .nav-link:hover {
@@ -12,4 +12,19 @@
 
 header {
     background-color: white;
+}
+
+header img {
+    height: 9vh;
+    width: 9vh;
+}
+
+header button {
+    min-height: 7vh;
+    min-width: 7vh;
+}
+
+header button .navbar-toggler-icon {
+    min-height: 5vh;
+    min-width: 5vh;
 }

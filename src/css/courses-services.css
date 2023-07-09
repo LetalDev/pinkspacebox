@@ -18,9 +18,12 @@ h1 {
 .big-card {
   background-color: #FFE8FB;
   position: fixed;
-  width: 70%;
-  top: 5%;
-  left: 15%;
+  min-width: 70%;
+  max-width: 90%;
+  max-height: 90%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
   border-width: 10px;
   border-color: #ff6fc6;
   border-style: solid;
@@ -39,7 +42,7 @@ h1 {
 }
 
 .big-card .card-text {
-  font-size: 15px;
   overflow-y: scroll;
   max-height: 30vw;
+  font-size: 1.5rem;
 }
